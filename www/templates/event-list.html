@@ -1,0 +1,16 @@
+<ion-view title="Event List">
+	<ion-content style="height: 100%; width: 100%; background-color: #fafafa">	
+		
+		<div ng-repeat="event in eventsData" class="card">
+   			<div class="item item-divider">
+      			<h2>{{ event.ename }}</h2>
+   			</div>
+
+   			<div class="item item-body">
+      			<img class="full-image" style="width: 100%; height: 150px" src="img/ionic.png">
+      			<h4>Action button</h4>
+			</div>
+		</div>
+
+	</ion-content>
+</ion-view>
